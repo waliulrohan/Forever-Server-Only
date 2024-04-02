@@ -31,6 +31,7 @@ async function signup(req , res){
 
 // login 
 async function login(req , res){
+    console.log('daaamnn')
     try{
         const {email, password} = req.body;
         if (!email || !password) {
